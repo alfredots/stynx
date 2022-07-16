@@ -11,7 +11,7 @@ Tecnologias:
 ## Como utilizar
 
 ```bash
-npx create next-app -e https://github.com/alfredots/next-styled-boilerplate
+npx create-next-app . -e https://github.com/alfredots/next-styled-boilerplate
 ```
 
 ## Getting Started
