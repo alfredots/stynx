@@ -3,8 +3,8 @@
     "target": "es5",
     "baseUrl": "src",
     "paths": {
-      "@styles/*": ["common/styles/*"],
-      "@hooks/*": ["common/hooks/*"]
+      "@styles/*": ["styles/*"],
+      "@hooks/*": ["hooks/*"]
     },
     "lib": [
       "dom",
