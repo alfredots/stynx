@@ -4,48 +4,34 @@ import 'styled-components'
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      primary: {
-        50: string
-        500: string
-        900: string
-      }
-      secondary: {
-        50: string
-        500: string
-        900: string
-      }
-      neutral: {
-        50: string
-        100: string
-        200: string
-        300: string
-        400: string
-        500: string
-        600: string
-        700: string
-        800: string
-        900: string
-      }
-      error: {
-        50: string
-        500: string
-        900: string
-      }
-      warning: {
-        50: string
-        500: string
-        900: string
-      }
-      info: {
-        50: string
-        500: string
-        900: string
-      }
-      success: {
-        50: string
-        500: string
-        900: string
-      }
+      'primary-50': string
+      'primary-500': string
+      'primary-900': string
+      'secondary-50': string
+      'secondary-500': string
+      'secondary-900': string
+      'neutral-50': string
+      'neutral-100': string
+      'neutral-200': string
+      'neutral-300': string
+      'neutral-400': string
+      'neutral-500': string
+      'neutral-600': string
+      'neutral-700': string
+      'neutral-800': string
+      'neutral-900': string
+      'error-50': string
+      'error-500': string
+      'error-900': string
+      'warning-50': string
+      'warning-500': string
+      'warning-900': string
+      'info-50': string
+      'info-500': string
+      'info-900': string
+      'success-50': string
+      'success-500': string
+      'success-900': string
       white: string
       black: string
     }

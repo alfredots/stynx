@@ -1,46 +1,32 @@
 export const colors = {
-  primary: {
-    50: '#e0e5ea',
-    500: '#34414e',
-    900: '#28323d'
-  },
-  secondary: {
-    50: '#e1e9e4',
-    500: '#7b9e89',
-    900: '#2b3a31'
-  },
-  neutral: {
-    50: '#F9FAFB',
-    100: '#F3F4F6',
-    200: '#E5E7EB',
-    300: '#D1D5DB',
-    400: '#9CA3AF',
-    500: '#6B7280',
-    600: '#4B5563',
-    700: '#374151',
-    800: '#1F2937',
-    900: '#111827'
-  },
-  error: {
-    50: '#ef5350',
-    500: '#d32f2f',
-    900: '#c62828'
-  },
-  warning: {
-    50: '#ff9800',
-    500: '#ed6c02',
-    900: '#e65100'
-  },
-  info: {
-    50: '#03a9f4',
-    500: '#0288d1',
-    900: '#01579b'
-  },
-  success: {
-    50: '#4caf50',
-    500: '#2e7d32',
-    900: '#1b5e20'
-  },
+  'primary-50': '#e0e5ea',
+  'primary-500': '#34414e',
+  'primary-900': '#28323d',
+  'secondary-50': '#e1e9e4',
+  'secondary-500': '#7b9e89',
+  'secondary-900': '#2b3a31',
+  'neutral-50': '#F9FAFB',
+  'neutral-100': '#F3F4F6',
+  'neutral-200': '#E5E7EB',
+  'neutral-300': '#D1D5DB',
+  'neutral-400': '#9CA3AF',
+  'neutral-500': '#6B7280',
+  'neutral-600': '#4B5563',
+  'neutral-700': '#374151',
+  'neutral-800': '#1F2937',
+  'neutral-900': '#111827',
+  'error-50': '#ef5350',
+  'error-500': '#d32f2f',
+  'error-900': '#c62828',
+  'warning-50': '#ff9800',
+  'warning-500': '#ed6c02',
+  'warning-900': '#e65100',
+  'info-50': '#03a9f4',
+  'info-500': '#0288d1',
+  'info-900': '#01579b',
+  'success-50': '#4caf50',
+  'success-500': '#2e7d32',
+  'success-900': '#1b5e20',
   white: '#FFF',
   black: '#000'
 }
