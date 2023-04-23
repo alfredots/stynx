@@ -93,7 +93,7 @@ export type Padding = {
   left?: string
 }
 
-export type BoxProps = {
+export type RenderProps = {
   sizing?: Sizing
   layout?: Layout
   flex?: Flex
@@ -105,5 +105,13 @@ export type BoxProps = {
   border?: Border
   margin?: Margin
   padding?: Padding
-  children: ReactNode
 }
+
+export type BoxProps = {
+  children: ReactNode
+  sm?: RenderProps
+  md?: RenderProps
+  lg?: RenderProps
+  xl?: RenderProps
+  twoXl?: RenderProps
+} & RenderProps

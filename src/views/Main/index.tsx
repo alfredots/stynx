@@ -16,7 +16,22 @@ export const Main = () => {
 
   const imageUrl = response.message
   return (
-    <Box bgColor="success-500" sizing={{ width: '100px', height: '100px' }}>
+    <Box
+      bgColor="success-500"
+      sizing={{ width: '100px', height: '100px' }}
+      sm={{
+        sizing: {
+          width: '300px',
+          height: '300px'
+        }
+      }}
+      lg={{
+        sizing: {
+          width: '400px',
+          height: '500px'
+        }
+      }}
+    >
       {/* <img src={imageUrl} alt="avatar" width={400} height="auto" /> */}
     </Box>
   )
