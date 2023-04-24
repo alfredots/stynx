@@ -5,11 +5,13 @@ import { typography } from './tokens/typography'
 import { shadow } from './tokens/shadow'
 import { spacing } from './tokens/spacing'
 import { radius } from './tokens/radius'
+import { weight } from './tokens/weight'
 
 export const theme: DefaultTheme = {
   colors,
   typography,
   spacing,
   shadow,
-  radius
+  radius,
+  weight
 } as const

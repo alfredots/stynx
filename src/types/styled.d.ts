@@ -130,5 +130,12 @@ declare module 'styled-components' {
       xl: string
       '2xl': string
     }
+    weight: {
+      '300': number
+      '400': number
+      '500': number
+      '600': number
+      '700': number
+    }
   }
 }

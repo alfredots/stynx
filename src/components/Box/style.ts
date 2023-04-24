@@ -147,6 +147,11 @@ export const Box = styled.div<BoxProps>`
     ${() => renderPadding(padding)}
 
     @media ${maxWidth.sm} {
+      ${sm?.bgColor && `background-color: ${theme.colors[sm.bgColor]};`}
+      ${sm?.shadow &&
+      `box-shadow: ${theme.shadow[sm.shadow.type]} ${
+        theme.colors[sm.shadow.color]
+      } ;`}
       ${() => sm && renderLayout(sm.layout)}
       ${() => sm && renderPosition(sm.position)}
       ${() => sm && renderFlex(sm.flex)}
@@ -159,6 +164,11 @@ export const Box = styled.div<BoxProps>`
     }
 
     @media ${maxWidth.md} {
+      ${md?.bgColor && `background-color: ${theme.colors[md.bgColor]};`}
+      ${md?.shadow &&
+      `box-shadow: ${theme.shadow[md.shadow.type]} ${
+        theme.colors[md.shadow.color]
+      } ;`}
       ${() => md && renderLayout(md.layout)}
       ${() => md && renderPosition(md.position)}
       ${() => md && renderFlex(md.flex)}
@@ -171,6 +181,11 @@ export const Box = styled.div<BoxProps>`
     }
 
     @media ${maxWidth.lg} {
+      ${lg?.bgColor && `background-color: ${theme.colors[lg.bgColor]};`}
+      ${lg?.shadow &&
+      `box-shadow: ${theme.shadow[lg.shadow.type]} ${
+        theme.colors[lg.shadow.color]
+      } ;`}
       ${() => lg && renderLayout(lg.layout)}
       ${() => lg && renderPosition(lg.position)}
       ${() => lg && renderFlex(lg.flex)}
@@ -183,6 +198,11 @@ export const Box = styled.div<BoxProps>`
     }
 
     @media ${maxWidth.xl} {
+      ${xl?.bgColor && `background-color: ${theme.colors[xl.bgColor]};`}
+      ${xl?.shadow &&
+      `box-shadow: ${theme.shadow[xl.shadow.type]} ${
+        theme.colors[xl.shadow.color]
+      } ;`}
       ${() => xl && renderLayout(xl.layout)}
       ${() => xl && renderPosition(xl.position)}
       ${() => xl && renderFlex(xl.flex)}
@@ -195,6 +215,11 @@ export const Box = styled.div<BoxProps>`
     }
 
     @media ${maxWidth['2xl']} {
+      ${twoXl?.bgColor && `background-color: ${theme.colors[twoXl.bgColor]};`}
+      ${twoXl?.shadow &&
+      `box-shadow: ${theme.shadow[twoXl.shadow.type]} ${
+        theme.colors[twoXl.shadow.color]
+      } ;`}
       ${() => twoXl && renderLayout(twoXl.layout)}
       ${() => twoXl && renderPosition(twoXl.position)}
       ${() => twoXl && renderFlex(twoXl.flex)}

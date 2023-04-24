@@ -93,7 +93,7 @@ export type Padding = {
   left?: string
 }
 
-export type RenderProps = {
+type RenderProps = {
   sizing?: Sizing
   layout?: Layout
   flex?: Flex
