@@ -30,5 +30,5 @@ export const Illusration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
 
-  ${({theme}) => theme.colors}
+  ${({ theme }) => theme.colors}
 `

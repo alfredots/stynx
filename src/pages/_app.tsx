@@ -1,8 +1,15 @@
+/* eslint-disable react/no-unknown-property */
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { GlobalStyles } from '@styles/global'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '@styles/theme'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin']
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,14 +20,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="A simple project start to work with TypeScript, React, NextJS and Styled Components"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
-      <GlobalStyles />
+      <GlobalStyles fontNext={inter} />
       <Component {...pageProps} />
     </ThemeProvider>
   )

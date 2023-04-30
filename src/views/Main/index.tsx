@@ -15,7 +15,7 @@ export const Main = () => {
     return <div>Deu ruim!</div>
   }
 
-  const imageUrl = response.message
+  // const imageUrl = response.message
   return (
     <Box
       bgColor="primary-50"
