@@ -133,8 +133,7 @@ export const Box = styled.div<BoxProps>`
     twoXl
   }) => css`
     ${bgColor && `background-color: ${theme.colors[bgColor]};`}
-    ${shadow &&
-    `box-shadow: ${theme.shadow[shadow.type]} ${theme.colors[shadow.color]} ;`}
+    ${shadow && `box-shadow: ${theme.shadow[shadow.type]};`}
 
     ${() => renderLayout(layout)}
     ${() => renderPosition(position)}

@@ -1,8 +1,14 @@
-import { NextFont } from 'next/dist/compiled/@next/font'
 import { createGlobalStyle, css } from 'styled-components'
 
 interface GlobalStyles {
-  fontNext: NextFont
+  fontNext: {
+    className: string
+    style: {
+      fontFamily: string
+      fontWeight?: number
+      fontStyle?: string
+    }
+  }
 }
 export const GlobalStyles = createGlobalStyle<GlobalStyles>`
  ${({ fontNext }) => css`

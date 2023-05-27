@@ -3,23 +3,14 @@ import { Box } from 'components/Box'
 import { Typography } from 'components/Typography'
 
 export const Main = () => {
-  const { response, loading, error } = useAxios({
-    url: 'https://dog.ceo/api/breeds/image/random',
-    method: 'get'
-  })
-  if (loading) {
-    return <div>Loading...</div>
-  }
-
-  if (error) {
-    return <div>Deu ruim!</div>
-  }
-
-  // const imageUrl = response.message
   return (
     <Box
       bgColor="primary-50"
       sizing={{ width: '100px', height: '100px' }}
+      shadow={{
+        color: 'error-500',
+        type: '2xl'
+      }}
       sm={{
         bgColor: 'secondary-500',
         sizing: {
